@@ -5,8 +5,12 @@ import com.le.demo.pattern.strategy.v0.quack.IQuackBehavior;
 
 /**
  * Created by LE on 2017/3/19.
+ *
  */
 public abstract class Duck {
+    /**
+     * 委托
+     */
     IFlyBehavior flyBehavior;
     IQuackBehavior quackBehavior;
 
@@ -18,6 +22,17 @@ public abstract class Duck {
         quackBehavior.quack();
     }
 
-
     abstract void display();
+
+    /**
+     * 实现setter是为了动态改变行为
+     * @param flyBehavior
+     */
+    public void setFlyBehavior(IFlyBehavior flyBehavior) {
+        this.flyBehavior = flyBehavior;
+    }
+
+    public void setQuackBehavior(IQuackBehavior quackBehavior) {
+        this.quackBehavior = quackBehavior;
+    }
 }
