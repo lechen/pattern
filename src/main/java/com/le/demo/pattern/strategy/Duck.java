@@ -1,7 +1,4 @@
-package com.le.demo.pattern.strategy.v0;
-
-import com.le.demo.pattern.strategy.v0.IFlyBehavior;
-import com.le.demo.pattern.strategy.v0.IQuackBehavior;
+package com.le.demo.pattern.strategy;
 
 /**
  * Created by LE on 2017/3/19.
