@@ -1,7 +1,7 @@
-package com.le.demo.pattern.strategy.v0.duck;
+package com.le.demo.pattern.strategy.v0;
 
-import com.le.demo.pattern.strategy.v0.fly.IFlyBehavior;
-import com.le.demo.pattern.strategy.v0.quack.IQuackBehavior;
+import com.le.demo.pattern.strategy.v0.IFlyBehavior;
+import com.le.demo.pattern.strategy.v0.IQuackBehavior;
 
 /**
  * Created by LE on 2017/3/19.

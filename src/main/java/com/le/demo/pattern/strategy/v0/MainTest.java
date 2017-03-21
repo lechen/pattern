@@ -1,11 +1,5 @@
 package com.le.demo.pattern.strategy.v0;
 
-import com.le.demo.pattern.strategy.v0.duck.Duck;
-import com.le.demo.pattern.strategy.v0.duck.MallardDuck;
-import com.le.demo.pattern.strategy.v0.duck.ModelDuck;
-import com.le.demo.pattern.strategy.v0.fly.FlyWithWings;
-import com.le.demo.pattern.strategy.v0.quack.Quack;
-
 /**
  * Created by LE on 2017/3/19.
  * 策略模式:

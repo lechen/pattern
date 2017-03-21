@@ -5,4 +5,8 @@ package com.le.demo.pattern.observer.v0;
  * 发布者接口
  */
 public interface Subject {
+    public void registerObserver(Observer observer);
+    public void deleteObserver(Observer observer);
+    public void notifyObserver();
+
 }
