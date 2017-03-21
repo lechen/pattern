@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.le.demo.pattern.strategy.v0</OriginalElement>
+  <nodes>
+    <node x="540.0" y="242.0">com.le.demo.pattern.strategy.v0.MallardDuck</node>
+    <node x="360.0" y="242.0">com.le.demo.pattern.strategy.v0.DecoyDuck</node>
+    <node x="180.0" y="242.0">com.le.demo.pattern.strategy.v0.RubberDuck</node>
+    <node x="720.0" y="242.0">com.le.demo.pattern.strategy.v0.ModelDuck</node>
+    <node x="74.0" y="541.0">com.le.demo.pattern.strategy.v0.IFlyBehavior</node>
+    <node x="260.0" y="0.0">com.le.demo.pattern.strategy.v0.Duck</node>
+    <node x="328.0" y="443.0">com.le.demo.pattern.strategy.v0.Squeak</node>
+    <node x="0.0" y="242.0">com.le.demo.pattern.strategy.v0.RedHeadDuck</node>
+    <node x="164.0" y="443.0">com.le.demo.pattern.strategy.v0.Quack</node>
+    <node x="0.0" y="443.0">com.le.demo.pattern.strategy.v0.MuteQuack</node>
+    <node x="164.0" y="340.0">com.le.demo.pattern.strategy.v0.IQuackBehavior</node>
+    <node x="148.0" y="644.0">com.le.demo.pattern.strategy.v0.FlyNoWay</node>
+    <node x="321.0" y="541.0">com.le.demo.pattern.strategy.v0.MainTest</node>
+    <node x="0.0" y="644.0">com.le.demo.pattern.strategy.v0.FlyWithWings</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.le.demo.pattern.strategy.v0.MuteQuack" target="com.le.demo.pattern.strategy.v0.IQuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="72.0" y="418.0" />
+      <point x="188.0" y="418.0" />
+      <point x="-48.0" y="26.5" />
+    </edge>
+    <edge source="com.le.demo.pattern.strategy.v0.RubberDuck" target="com.le.demo.pattern.strategy.v0.Duck">
+      <point x="0.0" y="-26.5" />
+      <point x="260.0" y="222.0" />
+      <point x="368.0" y="222.0" />
+      <point x="-72.0" y="96.0" />
+    </edge>
+    <edge source="com.le.demo.pattern.strategy.v0.DecoyDuck" target="com.le.demo.pattern.strategy.v0.Duck">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="96.0" />
+    </edge>
+    <edge source="com.le.demo.pattern.strategy.v0.FlyNoWay" target="com.le.demo.pattern.strategy.v0.IFlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="212.0" y="619.0" />
+      <point x="170.0" y="619.0" />
+      <point x="32.0" y="26.5" />
+    </edge>
+    <edge source="com.le.demo.pattern.strategy.v0.RedHeadDuck" target="com.le.demo.pattern.strategy.v0.Duck">
+      <point x="0.0" y="-26.5" />
+      <point x="80.0" y="212.0" />
+      <point x="296.0" y="212.0" />
+      <point x="-144.0" y="96.0" />
+    </edge>
+    <edge source="com.le.demo.pattern.strategy.v0.Quack" target="com.le.demo.pattern.strategy.v0.IQuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.le.demo.pattern.strategy.v0.ModelDuck" target="com.le.demo.pattern.strategy.v0.Duck">
+      <point x="0.0" y="-26.5" />
+      <point x="800.0" y="212.0" />
+      <point x="584.0" y="212.0" />
+      <point x="144.0" y="96.0" />
+    </edge>
+    <edge source="com.le.demo.pattern.strategy.v0.MallardDuck" target="com.le.demo.pattern.strategy.v0.Duck">
+      <point x="0.0" y="-26.5" />
+      <point x="620.0" y="222.0" />
+      <point x="512.0" y="222.0" />
+      <point x="72.0" y="96.0" />
+    </edge>
+    <edge source="com.le.demo.pattern.strategy.v0.Squeak" target="com.le.demo.pattern.strategy.v0.IQuackBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="400.0" y="418.0" />
+      <point x="284.0" y="418.0" />
+      <point x="48.0" y="26.5" />
+    </edge>
+    <edge source="com.le.demo.pattern.strategy.v0.FlyWithWings" target="com.le.demo.pattern.strategy.v0.IFlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="64.0" y="619.0" />
+      <point x="106.0" y="619.0" />
+      <point x="-32.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8688794239202147" x="509.0493393326442" y="331.89408758027105" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
